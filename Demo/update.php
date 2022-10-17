@@ -30,6 +30,7 @@
         $result = $conn->query($sql);
 
         if($result->num_rows > 0){
+
             while($row = $result->fetch_assoc()){
 
                 $firstname = $row['firstname'];
@@ -40,8 +41,10 @@
                 $id = $row['id'];
 
             }
+            
          <!DOCTYPE html>
          <html>
+
          <body>
            <h2>User Update Form</h2>
 
@@ -75,8 +78,11 @@
             
                </fieldset>
            </from>
+
           </body> 
+          
           </html>
+          
           <?php
           
           ?>
