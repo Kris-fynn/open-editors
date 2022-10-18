@@ -51,22 +51,27 @@
            <from action="" method="post">
 
                <fieldset>
+               
                 <legend>Personal information:</legend>
-                First name:<br>
+                First name:<br> 
+
                 <input type="text" name="firstname" value="<?php echo $first_name; ?>" >
 
                 <input type="hidden" name = "user_id" value= "<?php echo $id; ?>">
                 <br>
 
                 Last name:<br>
+
                 <input type = "text" name = "lastname" value = "<?php echo $last_name; ?>">
                 <br>
 
-                Email:<br> 
+                Email:<br>
+
                 <input type = 'email' name = "email" value = "<? php echo $email; ?>">
                 <br>
 
                 Password:<br>
+
                 <input type = "password" name = "password" value = "<?php echo $password; ?>">
                 <br>
 
@@ -89,7 +94,7 @@
           </html>
 
           <?php
-          
+
           ?>
         
         }

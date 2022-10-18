@@ -21,17 +21,20 @@
     <table class = "table">
         <head>
             <tr>
+
                 <th>ID</th>
                 <th>First Name</th>
                 <th>Last Name</th>
                 <th>Email</th>
                 <th>Gender</th>
                 <th>Action</th>
+                
             </tr>
         </thread>
         <tbody>
             <?php 
                 if($result->num_rows>0){
+
                     while($row = $result->fetch_assoc(){
                         <tr>
                           <td><?php echo $row['id'];  ?> </td>
