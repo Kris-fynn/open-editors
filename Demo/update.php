@@ -49,10 +49,12 @@
            <h2>User Update Form</h2>
 
            <from action="" method="post">
+
                <fieldset>
                 <legend>Personal information:</legend>
                 First name:<br>
                 <input type="text" name="firstname" value="<?php echo $first_name; ?>" >
+
                 <input type="hidden" name = "user_id" value= "<?php echo $id; ?>">
                 <br>
 
@@ -69,8 +71,11 @@
                 <br>
 
                 Gender:<br>
+
                 <input type = "radio" name = "gender" value = "male" <?php if ($gender == 'Male'){ echo "checked;"} ?>>Male
+
                 <input type = "radio" name = "gender" value = "Female" <?php if ($gender == 'Female'){ echo "chacked;"} ?>>Female
+                
                 <br><br>
 
                 <input type = "submit" value = "update" name = "update">
@@ -82,7 +87,7 @@
           </body> 
           
           </html>
-          
+
           <?php
           
           ?>

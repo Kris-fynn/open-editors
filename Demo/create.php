@@ -32,6 +32,7 @@
         <h2>Singup Form</h2>
 
         <form action = "" method = "post">
+            
             <fieldset>
 
                 <legend>Personal Information:</legend>
