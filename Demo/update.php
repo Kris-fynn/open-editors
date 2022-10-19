@@ -2,6 +2,7 @@
     include "config.php";
 
     if(isset($_POST['update'])){
+        
         $firstname = $_POST['firstname'];
         $user_id = $_POST['id'];
         $lastname = $_POST['lastname'];
@@ -17,7 +18,9 @@
             echo "Record Update Successfully";
         }
         else{
+
             echo "Error:" .$sql. "<br" . $conn->error;
+
         }
 
     }  

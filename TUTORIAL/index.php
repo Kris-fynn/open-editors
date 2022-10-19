@@ -5,11 +5,17 @@
     <meta name="viewport" content="width=device-width, initia-scale= 1.0">
     <title> Registration Form</title>
 </head>
+
 <h1>Blood Donation Camp</h1>
+
 <body bgcolor="FBB917">
+
     <div>
+
         <h2>Registration Form</h2>
+
           <form action='connect.pnp' method="POST">
+            
             <Label for = "user">Name:</Label><br>
             <input type= "text" name='name' id = "name" required/> <br> <br>
 

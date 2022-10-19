@@ -42,12 +42,17 @@
                 <br>
 
                 Lastname:<br>
+
                 <input type="text" name = "lastname">
+
                 <br>
 
                 Gender:<br>
+                
                 <input type = "radio" name = "gender" value = "Male">Male
+
                 <input type = "radio" name = "gender" value="Female">Female
+
                 <br><br>
 
                 <input type = "submit" name = "submit" value = "submit" >

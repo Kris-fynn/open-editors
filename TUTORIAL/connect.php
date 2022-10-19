@@ -6,8 +6,11 @@
         if(isset($_POST['name']) && isset($_POST['email']) && isset($_POST['phone']) && isset($_POST['bgroup'])){
 
             $name = $_POST['name'];
+
             $email = $_POST['email'];
+
             $phone = $_POST['phone'];
+
             $bgroup = $_POST['bgroup'];
 
             $sql = "INSERT INTO 'users' ('name', 'email', 'phone', 'bgroup')  VALUES ('$name', '$email', '$phone', '$bgroup')";
@@ -17,10 +20,12 @@
             if($query){
 
                 echo 'Entry Successful';
+
             }
             else{
                 
                 echo 'Error Occurred';
+
             }
 
 
@@ -28,7 +33,9 @@
 
 
         }
+        
          
     }
+
 
 ?>
