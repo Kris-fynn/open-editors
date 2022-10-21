@@ -17,15 +17,19 @@
           <form action='connect.pnp' method="POST">
             
             <Label for = "user">Name:</Label><br>
+
             <input type= "text" name='name' id = "name" required/> <br> <br>
 
             <lebel for = "email">Email:</lebel><br>
+            
             <input type='email' name ='email' id = 'email' required/> <br> <br>
 
             <label for = "phone">Phone:</label> <br>
+
             <input type = 'phone' name ='phone' id = 'phone' required/> <br> <br>
             
             <label for="bgroup">Blood Group:</label> <br>
+
             <input type='text' name='bgroup' id="bgroup" required/> <br> <br>
 
             <input type = "submit" name = "submit" id = "submit"/>
